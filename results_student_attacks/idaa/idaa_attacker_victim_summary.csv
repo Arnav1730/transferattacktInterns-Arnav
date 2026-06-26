@@ -1,0 +1,5 @@
+attacker_model,victim_model,attack_method,num_rows,breach_rate_pct,impact_mean
+ArcFace,ArcFace,IDAA,30,100.0,0.521083122756223
+ArcFace,Facenet512,IDAA,30,40.0,0.30430415734620614
+ArcFace,GhostFaceNet,IDAA,30,33.33333333333333,0.13913959268024975
+ArcFace,VGG-Face,IDAA,30,43.333333333333336,0.18489419651875613

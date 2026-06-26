@@ -1,4 +1,30 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+
+# macOS
 .DS_Store
+
+# Virtual environment
+venv/
+
+# Dataset
+dataset_extractedfaces/
+
+# Generated outputs
+outputs/
+
+# Model weights
+*.pth
+
+# Temporary files
+pyfiles.txt
+
+# Local assignment document
+Intern Assignment (Summer 26).docx
+
+# Temporary test scripts
+test_*.py
+faug_test.py
+faug_gradient_test.py   

@@ -40,7 +40,7 @@ for model_name in MODELS:
             / Path(img2).name
         )
 
-        adv_path = row["faug_path"]
+        adv_path = row["idaa_path"]
 
         try:
 
@@ -64,7 +64,7 @@ for model_name in MODELS:
                 "victim_model": model_name,
                 "dataset": row["dataset"],
                 "attack_type": row["attack_type"],
-                "attack_method": "FAUG",
+                "attack_method": "IDAA",
                 "variant": "vanilla",
                 "similarity": sim
             })
@@ -81,10 +81,9 @@ for model_name in MODELS:
 
 df = pd.DataFrame(records)
 df.to_csv(
-    "results_baseline/faug_similarity_results.csv",
+    "results_baseline/idaa_similarity_results.csv",
     index=False
 )
 
-print("\nSaved results_baseline/faug_similarity_results.csv")
+print("\nSaved results_baseline/idaa_similarity_results.csv")
 print("Rows:", len(df))
-
