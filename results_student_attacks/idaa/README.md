@@ -27,4 +27,5 @@ Generated files:
 IDAA achieved the highest overall attack success among the evaluated baseline and student attacks on the subset benchmark.
 
 Overall breach rate: **54.17%**
+
 Minor documentation update before public repository submission.
